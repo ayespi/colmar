@@ -1,0 +1,63 @@
+/*Header Styles*/
+
+.brand {
+    background-color: #fff;
+    height: 4rem;
+    padding-left: 1.5rem;
+    width: 100%;
+    min-width: 20rem;
+}
+
+.brand .inner {
+    display: flex;
+}
+
+.logo {
+    line-height: 4rem;
+    padding-top: 0.5rem;
+    }
+
+    .logo img {
+        height: 3rem;
+    }
+
+    .text {
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .brand .text .inner span {
+        color: #aaa;
+        font-weight: 300;
+    }
+
+
+    .links {
+        background-color: #fff;
+        height: 4rem;
+    }
+
+    .links nav.inner {
+        text-align: right;
+        line-height: 4rem;
+    }
+
+    .links nav.inner ul {
+        padding-right: 1.5rem;
+    }
+
+    .links nav.inner ul li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .links nav.inner ul li a {
+        text-decoration: none;
+        color: #444;
+    }
+
+    .links nav.inner ul li a:hover {
+        text-decoration: underline;
+    }
