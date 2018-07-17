@@ -305,6 +305,9 @@ body {
         width: 40%;
         min-width: 25rem;
     }
+    #thesis .article{
+        border-bottom: solid 1px #ccc;
+    }
     .article .inner2{
         display: flex;
     }
