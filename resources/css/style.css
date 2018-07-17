@@ -13,11 +13,14 @@ body {
     padding: 0;
     border: 0;
 }
-
+#mobile-links{
+    display: none;
+}
 /*Header Styles*/
 
 .wrapper header {
     display: flex;
+    height: 4rem;
 }
 
 .brand {
@@ -30,7 +33,7 @@ body {
 
 .brand {
     background-color: #fff;
-    height: 4rem;
+    line-height: 4rem;
     padding-left: 1.5rem;
     width: 100%;
     min-width: 20rem;
@@ -102,14 +105,18 @@ body {
   padding: 2rem 1.5rem 2rem 1.5rem;
 }
 #banner .inner .image img{
-  width: 97%;
+  width: 100%;
   height: auto;
+  min-width: 340px;
 }
 #banner .inner .content{
   flex-basis: 40%;
 }
 #banner .inner .content .inner2{
-  padding: 6rem 3rem 2rem 1.5rem;
+  padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+
 }
 #banner .inner .content .inner2 h1{
   font-size: 2.8rem;
@@ -143,74 +150,75 @@ body {
     flex-basis: 40%;
 }
 
-.featured .inner {
+#information .featured .inner {
     padding: 2rem 1.5rem;
 }
 
-.featured .inner .image img {
+#information .featured .inner .image img {
     width: 100%;
     height: auto;
     margin-bottom: 2rem;
+    min-width: 340px;
 }
 
-.featured .inner h1 {
+#information .featured .inner h1 {
     font-size: 2.5rem;
 }
 
-.featured .inner p {
+#information .featured .inner p {
     margin: 1.5rem 0;
     font-size: 1.16rem;
     line-height: 1.3;
     font-weight: 300;
 }
 
-.featured .inner span {
+#information .featured .inner span {
     font-weight: 500;
 }
 
-.articles {
+#information .articles {
     padding-top: 1rem;
 }
 
-.article {
-    border: solid 1px #ccc;
+#information .article {
+    border-bottom: solid 1px #ccc;
 }
 
-.article .inner2 {
+#information .article .inner2 {
     display: flex;
 }
 
-.article .inner2 .image {
+#information .article .inner2 .image {
     width: 35%;
     padding: 1rem;
 }
 
-.article .inner2 .image img {
+#information .article .inner2 .image img {
     width: 100%;
     height: auto;
 }
 
-.article .inner2 .content {
+#information .article .inner2 .content {
     width: 65%;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
-.articles .content .inner3 {
+#information .articles .content .inner3 {
     padding-top: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
 }
 
-.articles .content .inner3 h2 {
+#information .articles .content .inner3 h2 {
     font-size: 1.6rem;
 }
 
-.content .inner3 p {
+#information .content .inner3 p {
     line-height: 1.3;
     margin: 0.5rem 0;
 }
 
-.content .inner3 a {
+#information .content .inner3 a {
     text-decoration: none;
     color: cornflowerblue;
 }
@@ -237,8 +245,9 @@ body {
 
 .course {
     border: solid 1px #ccc;
-    width: 28%;
+    flex-basis: 28%;
     margin: 2rem 1rem;
+    min-width: 240px;
 }
 
 .course .inner2 .image img {
@@ -249,7 +258,6 @@ body {
 .course .inner2 .content {
     padding: 1.5rem;
     background-color: #fff;
-    min-height: 10rem;
 }
 
 .course .inner2 .content h3 {
@@ -275,7 +283,7 @@ body {
     #thesis .inner .content{
         display: flex;
     }
-    .content .featured{
+    #thesis .content .featured{
         width: 60%;
         border-right: solid 1px #ccc;
     }
@@ -285,6 +293,7 @@ body {
     .featured .inner2 .video iframe{
         width: 100%;
         margin-bottom: 1.5rem;
+        min-width: 340px;
     }
     .featured .inner2 .content2 p{
         margin-top: 0.5rem;

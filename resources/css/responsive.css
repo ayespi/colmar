@@ -1,0 +1,140 @@
+/* Responsive Styles */
+
+/* Header */
+
+@media screen and (max-width: 767px) {
+    
+/*Responsive Header Styles*/
+    .brand,
+    .links{
+        display: none;
+    }
+    #mobile-links {
+        display: block;
+        width: 100%;
+    }
+    #mobile-links nav.inner{
+        margin: 0 auto;
+    }
+    #mobile-links nav.inner ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    #mobile-links .inner ul li{
+
+        list-style: none;
+        margin: 0 2rem;
+       
+    }
+    #mobile-links .inner ul li a{
+        display: block;
+        width: 3rem;
+    }
+    #mobile-links .inner ul li img{
+        height: 3rem;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+/*Responsive Banner Styles*/
+    #banner .inner{
+        flex-direction: column;
+    }
+    #banner .inner .image{
+        padding: 0;
+    }
+    
+/*Information Section Styles*/
+    #information .featured{
+        display: none;
+    }
+    #information .articles{
+        flex-basis: 100%;
+    }
+    #information .articles .inner{
+        padding: 1rem;
+    }
+    #information .article .inner2 {
+        flex-direction: column;
+    }
+    #information .article .inner2 .image {
+        width: 100%;
+        padding: 1rem;
+    }
+    #information{
+        width: 95%;
+    }
+    #image-orientation img{
+        display: none;
+    }
+    #image-orientation{
+        background-image: url("../images/information-orientation-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        height: 20rem;;
+    }
+    #image-campus img{
+        display: none;
+    }
+    #image-campus{
+        background-image: url("../images/information-campus-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        height: 20rem;;
+    }
+    #image-lecture img{
+        display: none;
+    }
+    #image-lecture{
+        background-image: url("../images/information-guest-lecture-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        height: 20rem;;
+    }
+/*Learning Section Styles*/
+    #learning{
+        background-color: #fff;
+    }
+    #learning .course{
+        border: 0;
+        flex-basis: 100%;
+        margin-bottom: 0.5rem;
+    }
+    #learning .inner2 .image img,
+    #learning .inner2 .content h4,
+    #learning .inner2 .content p{
+        display: none;
+    }
+    #learning .inner2 .content{
+        background-color: #ccc;
+    }
+
+/*Thesis Styles*/
+    #thesis .content .featured{
+        width: 100%;
+        border: 0;
+    }
+    #thesis .articles{
+        display: none;
+    }
+/*Footer Styles*/
+    footer nav.links{
+        display: none;
+    }
+    footer .inner p{
+        flex-basis: 100%;
+    }
+}
+
+/* Banner */
+
+/* Information */
+
+/* Learning */
+
+/* Thesis */
+
+/* Footer */
